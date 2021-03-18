@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Add styles here! */
+header { 
+  margin-left: 20%;
+  margin-top:10%;
+  
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-top: 10%;
+  }
+  .card {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-top: 4rem !important;
+  }
+  .indented-heading { 
+    margin-left: 0 !important;
+  }
+}
+  
+.max-width-wrapper
+{
+  width:100%
+}
+
+
+header p {
+  width:35%;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+
+strong {
+  color: hsl(160, 100%, 30%)
+}
+
+main {
+border-top: 8px solid hsl(0, 0%, 25%);
+  height:min-content;
+background: hsl(0, 0%, 50%);
+}
+
+
+.card {
+  background: white;
+  width: 50%;
+  margin: 0 15%;
+  margin-top: 4rem;
+  padding-top: 0.5rem;
+  border-bottom: 8px solid hsl(0, 0%, 25%);
+}
+
+.indented-heading {
+  margin-left: -2rem;  
+  margin-top: 1rem;
+  background: hsl(45, 100%, 50%);
+  width:fit-content;
+  padding:1rem 2rem;
+  border-bottom: 8px solid hsl(45, 100%, 40%);
+}
+
+.max-width-wrapper { 
+  padding-bottom:5rem;
+}
+
+.card > p {
+  margin: 0 2rem;
+  margin-bottom: 3rem;
+}
